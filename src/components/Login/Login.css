@@ -1,0 +1,101 @@
+.login_body {
+    background: #3E5151;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(158, 156, 151), #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(158, 156, 151), #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    /* background-position: center center; */
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.login_container {
+        width: 40%; 
+        height: 120px;
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        margin-top: -30px;
+}
+
+.login_title {
+        z-index: 2;
+        position: relative;
+        display: flex;
+        padding-left: 20px;
+}
+
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 65px;
+    color: rgb(107, 110, 110);
+}
+
+.login {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   width: 100%;
+   height: 600px;   
+}
+
+.videoTag {
+    height: 120%;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 1;
+    margin-top: -75px;
+}
+
+.loginButton {
+    display: inline-flex;
+    margin: auto;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 2px;
+    border: 1px solid;
+    transition: .5s ease-in-out;
+    z-index: 2;
+    position: relative;
+} 
+
+.loginButton:hover, .loginButton:active {
+    font-size: 110%;
+}
+
+@media(max-width:1010px) {
+   .login_container {
+       width: 60%;
+       transition: .5s ease-in-out;
+       margin-top: -40px;  
+   }
+   h1 {
+       color: white;
+   }
+}
+
+@media(max-width:750px) {
+    .login_container {
+        width: 80%;
+        transition: .5s ease-in-out;
+    }
+    .login {
+        align-items: flex-end;
+        height: 500px;
+    }
+}  
+
+@media(max-width:550px) {
+    .login_container {
+        width: 100%;
+        transition: .5s ease-in-out;
+        justify-content: center;
+        margin-top: -10px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,89 @@
+.checkout_body {
+    min-height: fill;
+    height: fit-content;
+    width: 100%;
+    background: #3e5151;
+    background: -webkit-linear-gradient(to right, rgb(158, 156, 151), #3e5151);
+    background: linear-gradient(to right, rgb(158, 156, 151), #3e5151);
+    background-size: cover;
+}
+
+.total_container {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    float: right;
+    width: 325px;
+    height: 380px;
+    margin-right: 100px;
+    margin-left: 70px;
+    margin-top: 70px;
+    background-color: rgb(92, 83, 83);
+    opacity: .75;
+    padding: 50px;
+    transition: .5s ease-in-out;
+    position: relative;
+}
+
+#checkout_text {
+    text-decoration: underline;
+    color: rgb(108, 202, 202);
+}
+
+#items_text {
+    text-decoration: underline; 
+    margin-top: 40px;   
+}
+
+#taxes_text {
+    text-decoration: underline;    
+}
+
+#total_text {
+    color: rgb(236, 73, 73);
+    text-decoration: underline;
+}
+
+.order_button {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 4px;
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;   */
+    background: rgb(218, 162, 67);
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+    margin-top: 70px;
+    transition: .5s ease-in-out;
+    padding: 5px;
+}
+
+.order_button:hover {
+    text-decoration: underline;
+}
+
+@media (max-width:550px) {
+    .total_container {
+        font-size: 25px;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 50px;
+        float: none;
+        height: 275px;
+        width: 240px;
+    }
+    .order_button {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:450px) {
+    .total_container {
+        margin-top: 100px;
+    }
+}

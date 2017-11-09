@@ -1,0 +1,116 @@
+.home_body {
+  background: #3e5151;
+  background: -webkit-linear-gradient(to right, rgb(158, 156, 151), #3e5151);
+  background: linear-gradient(to right, rgb(158, 156, 151), #3e5151);
+  background-size: cover;
+  /* background-position: center center; */
+  height: 800px;
+  width: 100%;
+  /* position: relative; */
+  /* z-index: -1; */
+}
+
+.home_nav {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.home_video {
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    position: fixed;
+}
+
+.home_text {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 65px;
+    color: white;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+}
+
+.home_subtext1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    width: 100%;
+    color: white;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;  
+}
+
+.home_subtext2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    width: 100%;
+    color: white;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;  
+}
+
+/* #test {
+    animation-duration: 6s;
+    animation-delay: 5s;
+    animation-iteration-count: 1;
+  } */
+
+#test2 {
+    animation-duration: 6s;
+    animation-delay: 5s;
+    animation-iteration-count: 1;
+}
+
+@media (max-width:900px) {
+    .home_text {
+        font-size: 50px;
+        margin-top: 100px;
+    }
+    .home_subtext1 {
+        font-size: 40px;
+        margin-top: 150px;
+    }
+    .home_subtext2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:750px) {
+    .home_text {
+        margin-top: 550px;
+    }
+    .home_subtext1 {
+        margin-top: 595px;
+    }
+    .home_subtext2 {
+        margin-top: 630px;
+    }
+}
+
+@media (max-width:500px) {
+    .home_text {
+        font-size: 40px;
+        margin-top: 500px;
+    }
+    .home_subtext1 {
+        font-size: 25px;
+        margin-top: 545px;
+    }
+    .home_subtext2 {
+        font-size: 25px;
+        margin-top: 570px; 
+    }
+}
