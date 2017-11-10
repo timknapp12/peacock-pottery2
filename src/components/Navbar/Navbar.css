@@ -88,7 +88,6 @@ ul {
     position: fixed;
     top: 100px;
     left: 40px;
-    background-color: rgb(92, 83, 83);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 2;
@@ -98,12 +97,42 @@ ul {
   .dropdown-content span {
     color: rgb(108, 202, 202);
     padding: 12px 16px;
+    background-color: rgb(92, 83, 83);    
     text-decoration: underline;
     box-sizing: border-box;
     display: block;
     z-index: 10;
+    opacity: 0;
+    animation: menu 1s ease-in-out forwards;
+  }
+
+  #menu1 {
+    animation-delay: 0;
   }
   
+  #menu2 {
+    animation-delay: .25s;
+  }
+  
+ #menu3 {
+    animation-delay: .5s;
+  }
+   
+#menu4 {
+    animation-delay: .75s;
+  }
+    
+@keyframes menu {
+    0% {
+        opacity: 0;
+        transform: rotateY(-90deg) translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg) translateY(0px);
+    }
+}
+
   /* Change color of dropdown links on hover */
   .dropdown-content span:hover {
       background-color: #f1f1f1;

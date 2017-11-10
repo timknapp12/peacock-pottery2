@@ -36,10 +36,10 @@ export default function Navbar() {
             <div class="dropdown">
             <div><img className="hamburger dropbtn" src={hamburger} /></div>
           <div class="dropdown-content">
-            <Link to="/home"><span>Home</span></Link>
-            <Link to="/about"><span>About</span></Link>
-            <Link to="/shop"><span>Shop</span></Link>
-            <Link to="/cart"><span>Cart</span></Link>
+            <Link to="/home"><span id='menu1'>Home</span></Link>
+            <Link to="/about"><span id='menu2'>About</span></Link>
+            <Link to="/shop"><span id='menu3'>Shop</span></Link>
+            <Link to="/cart"><span id='menu4'>Cart</span></Link>
             {/* <a href="#">Link 2</a>
             <a href="#">Link 3</a> */}
           </div>
