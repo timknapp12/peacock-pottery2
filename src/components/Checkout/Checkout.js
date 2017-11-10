@@ -42,6 +42,7 @@ class Checkout extends Component {
                 <span id='taxes_text'>Taxes ${ taxes }</span>
                 <span id='total_text'>Order Total ${ total }</span>
                 <button type='' className='order_button'>Place Your Order</button>
+                <div>OOPS! Sorry, unfortunately the artist is not actually ready for business. Try back in like 5 years...</div> 
                 </div> 
             </div> 
         )
