@@ -49,6 +49,7 @@
 .order_button {
     font-family: "Open Sans Condensed", sans-serif;
     font-size: 25px;
+    width: 270px;
     border: 1px solid white;
     border-radius: 5px;
     /* -webkit-font-smoothing: antialiased;
@@ -87,7 +88,7 @@
     .order_button {
         font-size: 15px;
         box-shadow: 0 5px #999;    
-        
+        width: 120px;
     }
 }
 
