@@ -24,6 +24,7 @@ export default function reducer(state = initialState, action) {
         
         case REMOVE_FROM_CART + '_FULFILLED':
         console.log(action.payload)
+            alert('Item removed from cart');
             return Object.assign({}, state, {deleted: ''});
 
         case SHOW_CART + '_FULFILLED':
@@ -49,6 +50,7 @@ export function getAllProducts() {
 }
 
 export function addToCart(product_id) {
+    alert('Item added to cart');    
     return {
         type: ADD_TO_CART,
         payload: axios.put(`/api/cart/${product_id}`).then(res => res.data)
@@ -60,7 +62,8 @@ export function removeFromCart(product_id) {
         type: REMOVE_FROM_CART,
         payload: axios.delete(`/api/cart/${product_id}`).then(res => res.data)
     }
-}
+}               
+
 
 export function showItems() {
     return {

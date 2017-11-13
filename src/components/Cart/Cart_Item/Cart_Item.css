@@ -60,7 +60,7 @@
     background-color: rgb(236, 73, 73);
     box-shadow: 0 2px #666;
     transform: translateY(4px);
-  }
+  }  
 
 @media (max-width: 850px) {
     .cart_container {

@@ -32,9 +32,8 @@
     position: absolute;
     margin-top: 70px;
     margin-left: 20px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
 }
 
 .home_subtext1 {

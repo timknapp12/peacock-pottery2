@@ -27,10 +27,10 @@ export default class Home extends Component {
               <div className='home_subtext1 wow lightSpeedIn' data-wow-duration="6s" data-wow-delay="3s" id='test'>pottery hand-made with</div>
               <div className='home_subtext2 fade animated lightSpeedIn' id='test2'>real horse hair and peacock feathers</div>
             </div>
-          );
+        );
       
     }
-  }
+}
 
 
 
