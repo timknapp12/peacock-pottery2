@@ -47,7 +47,7 @@ export default function Navbar() {
 
 
             <ul>
-              <a className="signout_button" href="/logout">
+              <a className="signout_button" href="/auth/logout">
                 <button className="nav_buttons">SignOut</button>
               </a>
             </ul>
