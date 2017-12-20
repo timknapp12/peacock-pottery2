@@ -95,7 +95,7 @@ app.get('/auth/me', (req, res)=> {
 
 app.get('/auth/logout', (req, res) => {
   req.logOut();
-  res.redirect(`https://${process.env.AUTH_DOMAIN}/v2/logout?returnTo=http%3A%2F%2Flocalhost:3000`);
+  res.redirect('timpeacockpottery.com');
 })
 
 
