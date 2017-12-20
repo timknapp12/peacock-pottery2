@@ -95,7 +95,7 @@ app.get('/auth/me', (req, res)=> {
 
 app.get('/auth/logout', (req, res) => {
   req.logOut();
-  res.redirect('timpeacockpottery.com');
+  res.redirect('/');
 })
 
 
